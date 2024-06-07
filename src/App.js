@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Routes, useLocation} from 'react-router-dom';
 import FirstPageHeader from './header/FirstPageHeader';
-import FirstPage from './components/FirstPage'; // Импорт компонента About
+import FirstPage from './firstPage/FirstPage'; // Импорт компонента About
 import Login from './profile/Login';
 import Registration from './profile/Registration';
 import NewAdvertisement from "./advertisement/NewAdvertisement";
@@ -16,7 +16,7 @@ import AuthHeader from "./header/AuthHeader";
 import LoginRegistrationHeader from "./header/LoginRegistrationHeader";
 import FirstPageProfileHeader from "./header/AuthFirstPageHeader";
 import EditAdvertisement from "./advertisement/EditAdvertisement";
-import AuthFirstPage from "./components/AuthFirstPage";
+import AuthFirstPage from "./firstPage/AuthFirstPage";
 import CompanyInfo from "./profile/CompanyInfo";
 
 const App = () => {
